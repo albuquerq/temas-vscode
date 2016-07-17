@@ -1,0 +1,22 @@
+{
+    "name": "theme-atomdark",
+    "displayName": "Atom Dark",
+    "description": "Atom Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Atom Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Atom-Dark.tmTheme"
+            }
+        ]
+    }
+}

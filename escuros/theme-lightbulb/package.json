@@ -1,0 +1,22 @@
+{
+    "name": "theme-lightbulb",
+    "displayName": "Light Bulb",
+    "description": "Light Bulb theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Light Bulb",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Light-Bulb.tmTheme"
+            }
+        ]
+    }
+}

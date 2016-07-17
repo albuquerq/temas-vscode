@@ -1,0 +1,22 @@
+{
+    "name": "theme-x3alpha",
+    "displayName": "X3 Alpha",
+    "description": "X3 Alpha theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "X3 Alpha",
+                "uiTheme": "vs-dark",
+                "path": "./themes/X3-Alpha.tmTheme"
+            }
+        ]
+    }
+}

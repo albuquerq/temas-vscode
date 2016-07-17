@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokaimidnight",
+    "displayName": "Monokai Midnight",
+    "description": "Monokai Midnight theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-Midnight.tmTheme"
+            }
+        ]
+    }
+}

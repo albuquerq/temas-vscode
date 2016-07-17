@@ -1,0 +1,22 @@
+{
+    "name": "theme-toymachine",
+    "displayName": "Toy Machine",
+    "description": "Toy Machine theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Toy Machine",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Toy-Machine.tmTheme"
+            }
+        ]
+    }
+}

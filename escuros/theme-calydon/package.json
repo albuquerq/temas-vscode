@@ -1,0 +1,22 @@
+{
+    "name": "theme-calydon",
+    "displayName": "Calydon",
+    "description": "Calydon theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Calydon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Calydon.tmTheme"
+            }
+        ]
+    }
+}

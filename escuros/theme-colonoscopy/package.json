@@ -1,0 +1,22 @@
+{
+    "name": "theme-colonoscopy",
+    "displayName": "Colonoscopy",
+    "description": "Colonoscopy theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Colonoscopy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Colonoscopy.tmTheme"
+            }
+        ]
+    }
+}

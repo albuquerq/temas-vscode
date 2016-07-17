@@ -1,0 +1,22 @@
+{
+    "name": "theme-notebook",
+    "displayName": "Notebook",
+    "description": "Notebook theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Notebook",
+                "uiTheme": "vs",
+                "path": "./themes/Notebook.tmTheme"
+            }
+        ]
+    }
+}

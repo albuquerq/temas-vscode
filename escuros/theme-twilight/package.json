@@ -1,0 +1,22 @@
+{
+    "name": "theme-twilight",
+    "displayName": "Twilight",
+    "description": "Twilight theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Twilight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Twilight.tmTheme"
+            }
+        ]
+    }
+}

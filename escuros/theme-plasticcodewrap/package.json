@@ -1,0 +1,22 @@
+{
+    "name": "theme-plasticcodewrap",
+    "displayName": "Plastic Code Wrap",
+    "description": "Plastic Code Wrap theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Plastic Code Wrap",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Plastic-Code-Wrap.tmTheme"
+            }
+        ]
+    }
+}

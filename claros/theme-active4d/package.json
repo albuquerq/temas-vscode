@@ -1,0 +1,22 @@
+{
+    "name": "theme-active4d",
+    "displayName": "Active4D",
+    "description": "Active4D theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Active4D",
+                "uiTheme": "vs",
+                "path": "./themes/Active4D.tmTheme"
+            }
+        ]
+    }
+}

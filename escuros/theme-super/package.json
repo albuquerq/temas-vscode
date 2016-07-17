@@ -1,0 +1,22 @@
+{
+    "name": "theme-super",
+    "displayName": "Super",
+    "description": "Super theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Super",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Super.tmTheme"
+            }
+        ]
+    }
+}

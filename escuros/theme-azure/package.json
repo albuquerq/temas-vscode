@@ -1,0 +1,22 @@
+{
+    "name": "theme-azure",
+    "displayName": "Azure",
+    "description": "Azure theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Azure",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Azure.tmTheme"
+            }
+        ]
+    }
+}

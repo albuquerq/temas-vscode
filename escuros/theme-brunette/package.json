@@ -1,0 +1,22 @@
+{
+    "name": "theme-brunette",
+    "displayName": "Brunette",
+    "description": "Brunette theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Brunette",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Brunette.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-chelevra",
+    "displayName": "Chelevra",
+    "description": "Chelevra theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chelevra",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Chelevra.tmTheme"
+            }
+        ]
+    }
+}

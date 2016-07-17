@@ -1,0 +1,22 @@
+{
+    "name": "theme-happyhappyjoyjoy",
+    "displayName": "Happy Happy Joy Joy",
+    "description": "Happy Happy Joy Joy theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Happy Happy Joy Joy",
+                "uiTheme": "vs",
+                "path": "./themes/Happy-Happy-Joy-Joy.tmTheme"
+            }
+        ]
+    }
+}

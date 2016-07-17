@@ -1,0 +1,22 @@
+{
+    "name": "theme-eclipse",
+    "displayName": "Eclipse",
+    "description": "Eclipse theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Eclipse",
+                "uiTheme": "vs",
+                "path": "./themes/Eclipse.tmTheme"
+            }
+        ]
+    }
+}

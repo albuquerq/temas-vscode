@@ -1,0 +1,22 @@
+{
+    "name": "theme-mirodarkhighcontrast",
+    "displayName": "Mirodark High Contrast",
+    "description": "Mirodark High Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mirodark High Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mirodark-High-Contrast.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-katzenmilch",
+    "displayName": "Katzen Milch",
+    "description": "Katzen Milch theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Katzen Milch",
+                "uiTheme": "vs",
+                "path": "./themes/Katzen-Milch.tmTheme"
+            }
+        ]
+    }
+}

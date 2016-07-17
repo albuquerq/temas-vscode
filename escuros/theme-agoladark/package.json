@@ -1,0 +1,22 @@
+{
+    "name": "theme-agoladark",
+    "displayName": "Agola Dark",
+    "description": "Agola Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Agola Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Agola-Dark.tmTheme"
+            }
+        ]
+    }
+}

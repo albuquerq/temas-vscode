@@ -1,0 +1,22 @@
+{
+    "name": "theme-earthsonglight",
+    "displayName": "Earthsong Light",
+    "description": "Earthsong Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Earthsong Light",
+                "uiTheme": "vs",
+                "path": "./themes/Earthsong-Light.tmTheme"
+            }
+        ]
+    }
+}

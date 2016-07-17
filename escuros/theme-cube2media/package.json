@@ -1,0 +1,22 @@
+{
+    "name": "theme-cube2media",
+    "displayName": "Cube2 Media",
+    "description": "Cube2 Media theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cube2 Media",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cube2-Media.tmTheme"
+            }
+        ]
+    }
+}

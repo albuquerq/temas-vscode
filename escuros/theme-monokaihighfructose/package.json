@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokaihighfructose",
+    "displayName": "Monokai High Fructose",
+    "description": "Monokai High Fructose theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai High Fructose",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-High-Fructose.tmTheme"
+            }
+        ]
+    }
+}

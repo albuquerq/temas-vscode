@@ -1,0 +1,22 @@
+{
+    "name": "theme-shrek",
+    "displayName": "Shrek",
+    "description": "Shrek theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shrek",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Shrek.tmTheme"
+            }
+        ]
+    }
+}

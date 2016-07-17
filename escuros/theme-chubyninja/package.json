@@ -1,0 +1,22 @@
+{
+    "name": "theme-chubyninja",
+    "displayName": "Chuby Ninja",
+    "description": "Chuby Ninja theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chuby Ninja",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Chuby-Ninja.tmTheme"
+            }
+        ]
+    }
+}

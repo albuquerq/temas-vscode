@@ -1,0 +1,22 @@
+{
+    "name": "theme-gooeypastel",
+    "displayName": "Gooey Pastel",
+    "description": "Gooey Pastel theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gooey Pastel",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gooey-Pastel.tmTheme"
+            }
+        ]
+    }
+}

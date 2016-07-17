@@ -1,0 +1,22 @@
+{
+    "name": "theme-coffeedarkroast",
+    "displayName": "Coffee Dark Roast",
+    "description": "Coffee Dark Roast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Coffee Dark Roast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Coffee-Dark-Roast.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-choco",
+    "displayName": "Choco",
+    "description": "Choco theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Choco",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Choco.tmTheme"
+            }
+        ]
+    }
+}

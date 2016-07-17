@@ -1,0 +1,22 @@
+{
+    "name": "theme-venom",
+    "displayName": "Venom",
+    "description": "Venom theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Venom",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Venom.tmTheme"
+            }
+        ]
+    }
+}

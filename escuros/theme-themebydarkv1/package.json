@@ -1,0 +1,22 @@
+{
+    "name": "theme-themebydarkv1",
+    "displayName": "Themeby DarkV1",
+    "description": "Themeby DarkV1 theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Themeby DarkV1",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Themeby-DarkV1.tmTheme"
+            }
+        ]
+    }
+}

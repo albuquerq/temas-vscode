@@ -1,0 +1,22 @@
+{
+    "name": "theme-spectral",
+    "displayName": "Spectral",
+    "description": "Spectral theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spectral",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Spectral.tmTheme"
+            }
+        ]
+    }
+}

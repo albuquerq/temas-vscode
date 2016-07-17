@@ -1,0 +1,22 @@
+{
+    "name": "theme-8colourdark",
+    "displayName": "8 Colour Dark",
+    "description": "8 Colour Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "8 Colour Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/8-Colour-Dark.tmTheme"
+            }
+        ]
+    }
+}

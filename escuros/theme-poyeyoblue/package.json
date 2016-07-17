@@ -1,0 +1,22 @@
+{
+    "name": "theme-poyeyoblue",
+    "displayName": "Poyeyo Blue",
+    "description": "Poyeyo Blue theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Poyeyo Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Poyeyo-Blue.tmTheme"
+            }
+        ]
+    }
+}

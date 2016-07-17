@@ -1,0 +1,22 @@
+{
+    "name": "theme-lava",
+    "displayName": "Lava",
+    "description": "Lava theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lava",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lava.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-carbonightblue",
+    "displayName": "Carbonight Blue",
+    "description": "Carbonight Blue theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Carbonight Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Carbonight-Blue.tmTheme"
+            }
+        ]
+    }
+}

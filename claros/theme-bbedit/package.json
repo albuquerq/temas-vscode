@@ -1,0 +1,22 @@
+{
+    "name": "theme-bbedit",
+    "displayName": "BB Edit",
+    "description": "BB Edit theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "BB Edit",
+                "uiTheme": "vs",
+                "path": "./themes/BB-Edit.tmTheme"
+            }
+        ]
+    }
+}

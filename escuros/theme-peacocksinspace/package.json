@@ -1,0 +1,22 @@
+{
+    "name": "theme-peacocksinspace",
+    "displayName": "Peacocks In Space",
+    "description": "Peacocks In Space theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Peacocks In Space",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Peacocks-In-Space.tmTheme"
+            }
+        ]
+    }
+}

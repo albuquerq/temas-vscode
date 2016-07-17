@@ -1,0 +1,22 @@
+{
+    "name": "theme-base16greenscreenlight",
+    "displayName": "Base16 Green Screen Light",
+    "description": "Base16 Green Screen Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Base16 Green Screen Light",
+                "uiTheme": "vs",
+                "path": "./themes/Base16-Green-Screen-Light.tmTheme"
+            }
+        ]
+    }
+}

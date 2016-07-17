@@ -1,0 +1,22 @@
+{
+    "name": "theme-solarizedocean",
+    "displayName": "Solarized Ocean",
+    "description": "Solarized Ocean theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solarized Ocean",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Solarized-Ocean.tmTheme"
+            }
+        ]
+    }
+}

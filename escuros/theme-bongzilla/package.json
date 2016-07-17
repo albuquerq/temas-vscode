@@ -1,0 +1,22 @@
+{
+    "name": "theme-bongzilla",
+    "displayName": "Bongzilla",
+    "description": "Bongzilla theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bongzilla",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bongzilla.tmTheme"
+            }
+        ]
+    }
+}

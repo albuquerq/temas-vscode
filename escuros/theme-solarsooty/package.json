@@ -1,0 +1,22 @@
+{
+    "name": "theme-solarsooty",
+    "displayName": "Solar Sooty",
+    "description": "Solar Sooty theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Solar Sooty",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Solar-Sooty.tmTheme"
+            }
+        ]
+    }
+}

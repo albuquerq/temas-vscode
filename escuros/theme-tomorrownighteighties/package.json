@@ -1,0 +1,22 @@
+{
+    "name": "theme-tomorrownighteighties",
+    "displayName": "Tomorrow Night Eighties",
+    "description": "Tomorrow Night Eighties theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tomorrow Night Eighties",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tomorrow-Night-Eighties.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-pervorange",
+    "displayName": "Perv Orange",
+    "description": "Perv Orange theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Perv Orange",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Perv-Orange.tmTheme"
+            }
+        ]
+    }
+}

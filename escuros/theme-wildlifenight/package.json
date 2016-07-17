@@ -1,0 +1,22 @@
+{
+    "name": "theme-wildlifenight",
+    "displayName": "Wildlife Night",
+    "description": "Wildlife Night theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Wildlife Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Wildlife-Night.tmTheme"
+            }
+        ]
+    }
+}

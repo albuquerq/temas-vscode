@@ -1,0 +1,22 @@
+{
+    "name": "theme-tronlight",
+    "displayName": "Tron Light",
+    "description": "Tron Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tron Light",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tron-Light.tmTheme"
+            }
+        ]
+    }
+}

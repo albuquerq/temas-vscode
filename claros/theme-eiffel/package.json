@@ -1,0 +1,22 @@
+{
+    "name": "theme-eiffel",
+    "displayName": "Eiffel",
+    "description": "Eiffel theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Eiffel",
+                "uiTheme": "vs",
+                "path": "./themes/Eiffel.tmTheme"
+            }
+        ]
+    }
+}

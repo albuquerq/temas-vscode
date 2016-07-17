@@ -1,0 +1,22 @@
+{
+    "name": "theme-firecode",
+    "displayName": "Fire Code",
+    "description": "Fire Code theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fire Code",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Fire-Code.tmTheme"
+            }
+        ]
+    }
+}

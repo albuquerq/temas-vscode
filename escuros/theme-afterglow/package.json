@@ -1,0 +1,22 @@
+{
+    "name": "theme-afterglow",
+    "displayName": "Afterglow",
+    "description": "Afterglow theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Afterglow",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Afterglow.tmTheme"
+            }
+        ]
+    }
+}

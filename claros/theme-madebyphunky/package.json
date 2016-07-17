@@ -1,0 +1,22 @@
+{
+    "name": "theme-madebyphunky",
+    "displayName": "Madebyphunky",
+    "description": "Madebyphunky theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Madebyphunky",
+                "uiTheme": "vs",
+                "path": "./themes/Madebyphunky.tmTheme"
+            }
+        ]
+    }
+}

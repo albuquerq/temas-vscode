@@ -1,0 +1,22 @@
+{
+    "name": "theme-newday",
+    "displayName": "New Day",
+    "description": "New Day theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "New Day",
+                "uiTheme": "vs",
+                "path": "./themes/New-Day.tmTheme"
+            }
+        ]
+    }
+}

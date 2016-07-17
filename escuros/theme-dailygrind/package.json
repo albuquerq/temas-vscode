@@ -1,0 +1,22 @@
+{
+    "name": "theme-dailygrind",
+    "displayName": "Daily Grind",
+    "description": "Daily Grind theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Daily Grind",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Daily-Grind.tmTheme"
+            }
+        ]
+    }
+}

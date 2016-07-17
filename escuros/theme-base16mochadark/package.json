@@ -1,0 +1,22 @@
+{
+    "name": "theme-base16mochadark",
+    "displayName": "Base16 Mocha Dark",
+    "description": "Base16 Mocha Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Base16 Mocha Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Base16-Mocha-Dark.tmTheme"
+            }
+        ]
+    }
+}

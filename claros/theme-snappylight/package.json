@@ -1,0 +1,22 @@
+{
+    "name": "theme-snappylight",
+    "displayName": "Snappy Light",
+    "description": "Snappy Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Snappy Light",
+                "uiTheme": "vs",
+                "path": "./themes/Snappy-Light.tmTheme"
+            }
+        ]
+    }
+}

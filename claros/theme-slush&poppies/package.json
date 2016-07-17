@@ -1,0 +1,22 @@
+{
+    "name": "theme-slush\u0026poppies",
+    "displayName": "Slush \u0026 Poppies",
+    "description": "Slush \u0026 Poppies theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Slush \u0026 Poppies",
+                "uiTheme": "vs",
+                "path": "./themes/Slush-\u0026-Poppies.tmTheme"
+            }
+        ]
+    }
+}

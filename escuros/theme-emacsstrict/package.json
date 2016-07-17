@@ -1,0 +1,22 @@
+{
+    "name": "theme-emacsstrict",
+    "displayName": "Emacs Strict",
+    "description": "Emacs Strict theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Emacs Strict",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Emacs-Strict.tmTheme"
+            }
+        ]
+    }
+}

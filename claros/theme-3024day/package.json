@@ -1,0 +1,22 @@
+{
+    "name": "theme-3024day",
+    "displayName": "3024 Day",
+    "description": "3024 Day theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "3024 Day",
+                "uiTheme": "vs",
+                "path": "./themes/3024-Day.tmTheme"
+            }
+        ]
+    }
+}

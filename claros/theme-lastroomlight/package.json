@@ -1,0 +1,22 @@
+{
+    "name": "theme-lastroomlight",
+    "displayName": "Last Room Light",
+    "description": "Last Room Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Last Room Light",
+                "uiTheme": "vs",
+                "path": "./themes/Last-Room-Light.tmTheme"
+            }
+        ]
+    }
+}

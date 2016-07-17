@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokaibest",
+    "displayName": "Monokai Best",
+    "description": "Monokai Best theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Best",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-Best.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-arona",
+    "displayName": "Arona",
+    "description": "Arona theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "NSAlbuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Arona",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arona.tmTheme"
+            }
+        ]
+    }
+}
