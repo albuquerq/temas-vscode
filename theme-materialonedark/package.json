@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialonedark",
+    "displayName": "Material One Dark",
+    "description": "Material One Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material One Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-One-Dark.tmTheme"
+            }
+        ]
+    }
+}

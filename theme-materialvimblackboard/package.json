@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialvimblackboard",
+    "displayName": "Material Vim Blackboard",
+    "description": "Material Vim Blackboard theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Vim Blackboard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Vim-Blackboard.tmTheme"
+            }
+        ]
+    }
+}

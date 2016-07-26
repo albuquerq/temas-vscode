@@ -1,0 +1,22 @@
+{
+    "name": "theme-espresso",
+    "displayName": "Espresso",
+    "description": "Espresso theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Espresso",
+                "uiTheme": "vs",
+                "path": "./themes/Espresso.tmTheme"
+            }
+        ]
+    }
+}

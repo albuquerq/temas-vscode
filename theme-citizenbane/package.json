@@ -1,0 +1,22 @@
+{
+    "name": "theme-citizenbane",
+    "displayName": "Citizen Bane",
+    "description": "Citizen Bane theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Citizen Bane",
+                "uiTheme": "vs",
+                "path": "./themes/Citizen-Bane.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-newyork",
+    "displayName": "New York",
+    "description": "New York theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "New York",
+                "uiTheme": "vs",
+                "path": "./themes/New-York.tmTheme"
+            }
+        ]
+    }
+}

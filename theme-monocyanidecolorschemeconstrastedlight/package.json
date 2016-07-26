@@ -1,0 +1,22 @@
+{
+    "name": "theme-monocyanidecolorschemeconstrastedlight",
+    "displayName": "Monocyanide Colorscheme Constrasted Light",
+    "description": "Monocyanide Colorscheme Constrasted Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monocyanide Colorscheme Constrasted Light",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monocyanide-Colorscheme-Constrasted-Light.tmTheme"
+            }
+        ]
+    }
+}

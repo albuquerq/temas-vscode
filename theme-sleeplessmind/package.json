@@ -1,0 +1,22 @@
+{
+    "name": "theme-sleeplessmind",
+    "displayName": "Sleepless Mind",
+    "description": "Sleepless Mind theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sleepless Mind",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SleeplessMind.tmTheme"
+            }
+        ]
+    }
+}

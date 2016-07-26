@@ -1,0 +1,22 @@
+{
+    "name": "theme-eyesalvationlight",
+    "displayName": "Eye Salvation Light",
+    "description": "Eye Salvation Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Eye Salvation Light",
+                "uiTheme": "vs",
+                "path": "./themes/Eye-Salvation-Light.tmTheme"
+            }
+        ]
+    }
+}

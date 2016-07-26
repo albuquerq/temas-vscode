@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+======================================================================
+Code Runner
+======================================================================
+A Sublime Text 2 / Textmate theme.
+Copyright (c) 2014 Michael Miday.
+Released under the MIT License <http://opensource.org/licenses/MIT>
+======================================================================
+Find more themes at : https://github.com/hanakin/CodeRunner Theme
+======================================================================
+
+Colors
+---------------
+@black:			#202020 - BackgroundColor
+@blue:			#42c8ff - FunctionColor
+@green:			#9BDE9E - KeywordColor
+@orange:		#EDAC57 - NumberColor
+@red:			#F75972 - StringColor
+@dark-red 		#F75972
+@gray:			#7D8C93 - CommentColor
+@blue-gray:		#99B1BF - SelectionColor
+@light-blue:	#9BD9F2 - ClassColor
+@pale-blue:		#A3CAD6 - VariableColor
+@pale-purple:	#91A6FA - CharColor
+@white:			#ffffff - 
+
+-->
+
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>CodeRunner</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#202020</string>
+				<key>caret</key>
+				<string>#615649</string>
+				<key>foreground</key>
+				<string>#ffffff</string>
+				<key>invisibles</key>
+				<string>#3B3A32</string>
+				<key>lineHighlight</key>
+				<string>#f2f6f6</string>
+				<key>selection</key>
+				<string>#99B1BF88</string>
+				<key>findHighlight</key>
+				<string>#FFE792</string>
+				<key>findHighlightForeground</key>
+				<string>#000000</string>
+				<key>selectionBorder</key>
+				<string></string>
+				<key>activeGuide</key>
+				<string>#9D550FB0</string>
+
+				<key>bracketsForeground</key>
+				<string>#9BD9F2</string>
+				<key>bracketsOptions</key>
+				<string>underline</string>
+
+				<key>bracketContentsForeground</key>
+				<string>#F8F8F2A5</string>
+				<key>bracketContentsOptions</key>
+				<string>underline</string>
+
+				<key>tagsOptions</key>
+				<string>stippled_underline</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@blue #42c8ff
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Library function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.other.phpdoc.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+<!-- 
+	JAVASCRIPT
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>support.constant.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+<!-- 
+	XML
+	------------------------------------------------------------------
+-->	
+		<dict>
+			<key>scope</key>
+			<string>string.unquoted.cdata.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>	
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>string.quoted.double.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>meta.link.inline.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+<!-- 
+	CSS
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation.definition.entity.css </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>string.quoted.double.css, string.quoted.double.attribute-value.css, string.quoted.single.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#42c8ff</string>
+			</dict>
+		</dict>
+
+<!--
+======================================================================
+@green #9BDE9E
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<!-- @exp: true -->
+		<dict>
+			<key>name</key>
+			<string>Built-in constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+		<!-- @exp: return, require -->
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+		<!-- @exp: public, extends -->
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+		<!-- @exp: class, function -->
+		<dict>
+			<key>name</key>
+			<string>Storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+		<!-- @exp: <?php -->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+		<!-- @exp: namespace -->
+		<dict>
+			<key>scope</key>
+			<string>source.php.embedded.block.html constant.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+<!-- 
+	JAVASCRIPT
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>variable.language.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+<!-- 
+	XML
+	------------------------------------------------------------------
+-->	
+		<dict>
+			<key>scope</key>
+			<string>meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml, entity.name.tag.xml, punctuation.definition.string.begin.xml, punctuation.definition.string.end.xml </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>	
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag.script.html, source.js.embedded.html punctuation.definition.tag.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>string.other.link.description.title.markdown, string.other.link.description.title.markdown punctuation.definition.string.begin.markdown, string.other.link.description.title.markdown punctuation.definition.string.end.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+<!-- 
+	LESS
+	------------------------------------------------------------------
+-->	
+		<dict>
+			<key>scope</key>
+			<string>entity.other.less.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BDE9E</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@orange #EDAC57
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDAC57</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.raw.inline.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDAC57</string>
+			</dict>
+		</dict>
+<!-- 
+	CSS
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>keyword.other.important.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDAC57</string>
+			</dict>
+		</dict>
+<!-- 
+	JSON
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>JSON String</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#EDAC57</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@red #F75972
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>
+<!-- 
+	XML
+	------------------------------------------------------------------
+-->	
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml, entity.name.tag.localname.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>	
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag.structure, meta.tag.structure.any.html punctuation.definition.tag.begin.html, meta.tag.structure.any.html punctuation.definition.tag.end.html, entity.name.tag.block, meta.tag.block.any.html punctuation.definition.tag.begin.html, meta.tag.block.any.html punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>
+<!-- 
+	CSS
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>entity.name.tag.css, keyword.control.html.elements, keyword.operator.less, variable.parameter.misc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.control.at-rule.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.other.unit.css, constant.other.color.rgb-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F75972</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@dark-red #F75972
+======================================================================
+-->
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag.inline, meta.tag.inline.any.html punctuation.definition.tag.begin.html, meta.tag.inline.any.html punctuation.definition.tag.end.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#d5324c</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@gray #7D8C93
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7D8C93</string>
+			</dict>
+		</dict>
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>text.html.basic comment.block.html source.php.embedded.line.html punctuation.section.embedded.begin.php, text.html.basic comment.block.html source.php.embedded.line.html support.function.construct.php, text.html.basic comment.block.html source.php.embedded.line.html support.function.string.php, text.html.basic comment.block.html source.php.embedded.line.html variable.other.php punctuation.definition.variable.php, text.html.basic comment.block.html source.php.embedded.line.html variable.other.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7D8C93</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@blue-gray #99B1BF
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>meta.tag.sgml.html, meta.tag.sgml.html punctuation.definition.tag.html, meta.tag.sgml.doctype.xml, meta.tag.sgml.doctype.xml punctuation.definition.tag.begin.xml, meta.tag.sgml.doctype.xml punctuation.definition.tag.end.xml, keyword.doctype.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99B1BF</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@blue-light #9BD9F2
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Class name</string>
+			<key>scope</key>
+			<string>entity.name.type.class, meta.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9BD9F2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library class/type</string>
+			<key>scope</key>
+			<string>support.type, support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#9BD9F2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic underline</string>
+				<key>foreground</key>
+				<string>#9BD9F2</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.heading.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9BD9F2</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@blue-pale #A3CAD6
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A3CAD6</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.bold.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A3CAD6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>markup.italic.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#A3CAD6</string>
+			</dict>
+		</dict>
+<!-- 
+	LESS
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>variable.other.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A3CAD6</string>
+			</dict>
+		</dict>
+<!--
+======================================================================
+@purple-pale #91A6FA
+======================================================================
+-->
+<!-- 
+	HTML
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>Tag attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name, meta.tag.structure.any.html, meta.tag.inline.any.html, meta.tag.any.html, meta.tag.block.any.html, meta.tag.other.html, meta.tag.preprocessor.xml, meta.tag.xml, source.js.embedded.html</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>markup.list, punctuation.definition.list_item.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict>
+<!-- 
+	CSS
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>support.constant.property-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.entity.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#91A6FA</string>
+			</dict>
+		</dict> 
+<!--
+======================================================================
+@white #FFFFFF
+======================================================================
+-->
+<!-- 
+	PHP
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>name</key>
+			<string>User-defined constant</string>
+			<key>scope</key>
+			<string>constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>variable.other.property.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string> </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>keyword.operator.</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function argument</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#8FBE00</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library variable</string>
+			<key>scope</key>
+			<string>support.other.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>text.html.basic source.php.embedded.block.html meta.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+<!-- 
+	JAVASCRIPT
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>support.class.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+<!-- 
+	MARKDOWN
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.metadata.markdown</string> 
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+<!-- 
+	CSS
+	------------------------------------------------------------------
+-->
+		<dict>
+			<key>scope</key>
+			<string>support.function.misc.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+<!-- 
+	OTHER - WIP
+	------------------------------------------------------------------
+-->
+
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#75715E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00A8C6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files - match</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FBE00A0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6DB74</string>
+			</dict>
+		</dict>
+		
+		
+		
+
+	</array>
+</dict>
+</plist>

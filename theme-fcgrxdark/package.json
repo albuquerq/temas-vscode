@@ -1,0 +1,22 @@
+{
+    "name": "theme-fcgrxdark",
+    "displayName": "Fcgrx Dark",
+    "description": "Fcgrx Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fcgrx Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Fcgrx-Dark.tmTheme"
+            }
+        ]
+    }
+}

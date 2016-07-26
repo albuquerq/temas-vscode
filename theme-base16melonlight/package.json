@@ -1,0 +1,22 @@
+{
+    "name": "theme-base16melonlight",
+    "displayName": "Base16 Melon Light",
+    "description": "Base16 Melon Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Base16 Melon Light",
+                "uiTheme": "vs",
+                "path": "./themes/Base16-Melon-Light.tmTheme"
+            }
+        ]
+    }
+}

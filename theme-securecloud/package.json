@@ -1,0 +1,22 @@
+{
+    "name": "theme-securecloud",
+    "displayName": "Secure Cloud",
+    "description": "Secure Cloud theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Secure Cloud",
+                "uiTheme": "vs-dark",
+                "path": "./themes/SecureCloud.tmTheme"
+            }
+        ]
+    }
+}

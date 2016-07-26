@@ -1,0 +1,22 @@
+{
+    "name": "theme-base16railscastsdark",
+    "displayName": "Base16 Railscasts Dark",
+    "description": "Base16 Railscasts Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Base16 Railscasts Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Base16-Railscasts-Dark.tmTheme"
+            }
+        ]
+    }
+}

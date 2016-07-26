@@ -1,0 +1,22 @@
+{
+    "name": "theme-belafonteday",
+    "displayName": "Belafonte Day",
+    "description": "Belafonte Day theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Belafonte Day",
+                "uiTheme": "vs",
+                "path": "./themes/Belafonte-Day.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-arabiannights",
+    "displayName": "Arabian Nights",
+    "description": "Arabian Nights theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Arabian Nights",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Arabian-Nights.tmTheme"
+            }
+        ]
+    }
+}

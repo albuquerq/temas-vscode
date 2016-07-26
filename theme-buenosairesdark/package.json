@@ -1,0 +1,22 @@
+{
+    "name": "theme-buenosairesdark",
+    "displayName": "Buenos Aires Dark",
+    "description": "Buenos Aires Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Buenos Aires Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Buenos-Aires-Dark.tmTheme"
+            }
+        ]
+    }
+}

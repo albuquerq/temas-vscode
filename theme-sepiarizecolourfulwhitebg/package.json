@@ -1,0 +1,22 @@
+{
+    "name": "theme-sepiarizecolourfulwhitebg",
+    "displayName": "Sepiarize Colourful White Bg",
+    "description": "Sepiarize Colourful White Bg theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sepiarize Colourful White Bg",
+                "uiTheme": "vs",
+                "path": "./themes/Sepiarize-Colourful-White-Bg.tmTheme"
+            }
+        ]
+    }
+}

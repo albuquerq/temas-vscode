@@ -1,0 +1,22 @@
+{
+    "name": "theme-nocturnal",
+    "displayName": "Nocturnal",
+    "description": "Nocturnal theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nocturnal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nocturnal.tmTheme"
+            }
+        ]
+    }
+}

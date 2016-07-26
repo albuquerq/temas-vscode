@@ -1,0 +1,22 @@
+{
+    "name": "theme-onceuponatime",
+    "displayName": "Once Upon A Time",
+    "description": "Once Upon A Time theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Once Upon A Time",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Once-Upon-A-Time.tmTheme"
+            }
+        ]
+    }
+}

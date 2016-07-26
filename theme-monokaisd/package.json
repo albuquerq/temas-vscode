@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokaisd",
+    "displayName": "Monokai SD",
+    "description": "Monokai SD theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai SD",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-SD.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-frontenddelight",
+    "displayName": "Front End Delight",
+    "description": "Front End Delight theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Front End Delight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/FrontEndDelight.tmTheme"
+            }
+        ]
+    }
+}

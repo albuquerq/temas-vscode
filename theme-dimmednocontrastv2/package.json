@@ -1,0 +1,22 @@
+{
+    "name": "theme-dimmednocontrastv2",
+    "displayName": "Dimmed No Contrast V2",
+    "description": "Dimmed No Contrast V2 theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dimmed No Contrast V2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dimmed-NoContrast-V2.tmTheme"
+            }
+        ]
+    }
+}

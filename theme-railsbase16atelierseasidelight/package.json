@@ -1,0 +1,22 @@
+{
+    "name": "theme-railsbase16atelierseasidelight",
+    "displayName": "Railsbase16 Atelierseaside Light",
+    "description": "Railsbase16 Atelierseaside Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Railsbase16 Atelierseaside Light",
+                "uiTheme": "vs",
+                "path": "./themes/Railsbase16-Atelierseaside-Light.tmTheme"
+            }
+        ]
+    }
+}

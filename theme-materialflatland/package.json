@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialflatland",
+    "displayName": "Material Flatland",
+    "description": "Material Flatland theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Flatland",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Flatland.tmTheme"
+            }
+        ]
+    }
+}

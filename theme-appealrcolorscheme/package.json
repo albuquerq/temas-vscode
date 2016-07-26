@@ -1,0 +1,22 @@
+{
+    "name": "theme-appealrcolorscheme",
+    "displayName": "Appealr Color Scheme",
+    "description": "Appealr Color Scheme theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Appealr Color Scheme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Appealr-Color-Scheme.tmTheme"
+            }
+        ]
+    }
+}

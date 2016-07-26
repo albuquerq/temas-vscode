@@ -1,0 +1,22 @@
+{
+    "name": "theme-notepadplusplus",
+    "displayName": "Notepad Plus Plus",
+    "description": "Notepad Plus Plus theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Notepad Plus Plus",
+                "uiTheme": "vs",
+                "path": "./themes/Notepad-Plus-Plus.tmTheme"
+            }
+        ]
+    }
+}

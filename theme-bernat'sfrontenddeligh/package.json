@@ -1,0 +1,22 @@
+{
+    "name": "theme-bernat'sfrontenddeligh",
+    "displayName": "Bernat's Front End Deligh",
+    "description": "Bernat's Front End Deligh theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bernat's Front End Deligh",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bernat's-Front-End-Deligh.tmTheme"
+            }
+        ]
+    }
+}

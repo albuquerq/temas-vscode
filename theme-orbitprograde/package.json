@@ -1,0 +1,22 @@
+{
+    "name": "theme-orbitprograde",
+    "displayName": "Orbit Prograde",
+    "description": "Orbit Prograde theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Orbit Prograde",
+                "uiTheme": "vs",
+                "path": "./themes/Orbit-Prograde.tmTheme"
+            }
+        ]
+    }
+}

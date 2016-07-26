@@ -1,0 +1,22 @@
+{
+    "name": "theme-emokidmidnight",
+    "displayName": "Emokid Midnight",
+    "description": "Emokid Midnight theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Emokid Midnight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Emokid-Midnight.tmTheme"
+            }
+        ]
+    }
+}

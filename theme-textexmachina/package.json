@@ -1,0 +1,22 @@
+{
+    "name": "theme-textexmachina",
+    "displayName": "Text Ex Machina",
+    "description": "Text Ex Machina theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Text Ex Machina",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Text-Ex-Machina.tmTheme"
+            }
+        ]
+    }
+}

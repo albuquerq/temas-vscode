@@ -1,0 +1,22 @@
+{
+    "name": "theme-itg.flat.dark",
+    "displayName": "Itg. Flat. Dark",
+    "description": "Itg. Flat. Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Itg. Flat. Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Itg.Flat.Dark.tmTheme"
+            }
+        ]
+    }
+}

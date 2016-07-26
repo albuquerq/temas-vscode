@@ -1,0 +1,22 @@
+{
+    "name": "theme-railsbase16chalklight",
+    "displayName": "Railsbase16 Chalk Light",
+    "description": "Railsbase16 Chalk Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Railsbase16 Chalk Light",
+                "uiTheme": "vs",
+                "path": "./themes/Railsbase16-Chalk-Light.tmTheme"
+            }
+        ]
+    }
+}

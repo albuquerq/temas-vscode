@@ -1,0 +1,22 @@
+{
+    "name": "theme-railsbase163024light",
+    "displayName": "Railsbase16 3024 Light",
+    "description": "Railsbase16 3024 Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Railsbase16 3024 Light",
+                "uiTheme": "vs",
+                "path": "./themes/Railsbase16-3024-Light.tmTheme"
+            }
+        ]
+    }
+}

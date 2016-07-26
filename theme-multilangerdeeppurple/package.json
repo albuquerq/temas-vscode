@@ -1,0 +1,22 @@
+{
+    "name": "theme-multilangerdeeppurple",
+    "displayName": "Multilanger Deep Purple",
+    "description": "Multilanger Deep Purple theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Multilanger Deep Purple",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Multilanger-Deep-Purple.tmTheme"
+            }
+        ]
+    }
+}

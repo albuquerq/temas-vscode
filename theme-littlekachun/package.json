@@ -1,0 +1,22 @@
+{
+    "name": "theme-littlekachun",
+    "displayName": "Little Kachun",
+    "description": "Little Kachun theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Little Kachun",
+                "uiTheme": "vs",
+                "path": "./themes/Little-Kachun.tmTheme"
+            }
+        ]
+    }
+}

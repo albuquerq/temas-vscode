@@ -1,0 +1,22 @@
+{
+    "name": "theme-futurefunkbluemonday",
+    "displayName": "Future Funk Blue Monday",
+    "description": "Future Funk Blue Monday theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Future Funk Blue Monday",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Future-Funk-Blue-Monday.tmTheme"
+            }
+        ]
+    }
+}

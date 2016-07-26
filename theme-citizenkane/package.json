@@ -1,0 +1,22 @@
+{
+    "name": "theme-citizenkane",
+    "displayName": "Citizen Kane",
+    "description": "Citizen Kane theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Citizen Kane",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Citizen-Kane.tmTheme"
+            }
+        ]
+    }
+}

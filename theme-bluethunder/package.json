@@ -1,0 +1,22 @@
+{
+    "name": "theme-bluethunder",
+    "displayName": "Blue Thunder",
+    "description": "Blue Thunder theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blue Thunder",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blue-Thunder.tmTheme"
+            }
+        ]
+    }
+}

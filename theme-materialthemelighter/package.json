@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialthemelighter",
+    "displayName": "Material Theme Lighter",
+    "description": "Material Theme Lighter theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Theme Lighter",
+                "uiTheme": "vs",
+                "path": "./themes/Material-Theme-Lighter.tmTheme"
+            }
+        ]
+    }
+}

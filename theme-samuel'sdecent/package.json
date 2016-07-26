@@ -1,0 +1,22 @@
+{
+    "name": "theme-samuel'sdecent",
+    "displayName": "Samuel'S Decent",
+    "description": "Samuel'S Decent theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Samuel'S Decent",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Samuel'S-Decent.tmTheme"
+            }
+        ]
+    }
+}

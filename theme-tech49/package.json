@@ -1,0 +1,22 @@
+{
+    "name": "theme-tech49",
+    "displayName": "Tech 49",
+    "description": "Tech 49 theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tech 49",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tech-49.tmTheme"
+            }
+        ]
+    }
+}

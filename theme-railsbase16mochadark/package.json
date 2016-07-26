@@ -1,0 +1,22 @@
+{
+    "name": "theme-railsbase16mochadark",
+    "displayName": "Railsbase16 Mocha Dark",
+    "description": "Railsbase16 Mocha Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Railsbase16 Mocha Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Railsbase16-Mocha-Dark.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-justbeforedawn",
+    "displayName": "Justbeforedawn",
+    "description": "Justbeforedawn theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Justbeforedawn",
+                "uiTheme": "vs",
+                "path": "./themes/Justbeforedawn.tmTheme"
+            }
+        ]
+    }
+}

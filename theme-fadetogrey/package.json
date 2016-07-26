@@ -1,0 +1,22 @@
+{
+    "name": "theme-fadetogrey",
+    "displayName": "Fade To Grey",
+    "description": "Fade To Grey theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Fade To Grey",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Fade-To-Grey.tmTheme"
+            }
+        ]
+    }
+}

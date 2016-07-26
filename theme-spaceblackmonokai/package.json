@@ -1,0 +1,22 @@
+{
+    "name": "theme-spaceblackmonokai",
+    "displayName": "Spaceblack Monokai",
+    "description": "Spaceblack Monokai theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Spaceblack Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Spaceblack-Monokai.tmTheme"
+            }
+        ]
+    }
+}

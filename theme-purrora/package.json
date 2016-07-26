@@ -1,0 +1,22 @@
+{
+    "name": "theme-purrora",
+    "displayName": "Purrora",
+    "description": "Purrora theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Purrora",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Purrora.tmTheme"
+            }
+        ]
+    }
+}

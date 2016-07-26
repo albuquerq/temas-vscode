@@ -1,0 +1,22 @@
+{
+    "name": "theme-newyorkdark",
+    "displayName": "New York Dark",
+    "description": "New York Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "New York Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/New-York-Dark.tmTheme"
+            }
+        ]
+    }
+}

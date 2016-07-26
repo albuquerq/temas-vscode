@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>comment</key>
+	<string>http:&#x2f;&#x2f;nemodreaming.com</string>
+	<key>name</key>
+	<string>nemoDreaming</string>
+	<key>author</key>
+	<string>Philip Blyth</string>
+
+	<key>settings</key>
+	<array>
+
+		<!-- ================================================== -->
+		<!-- GENERAL -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#EEE</string>
+				<key>caret</key>
+				<string>#000</string>
+				<key>foreground</key>
+				<string>#666</string>
+				<key>invisibles</key>
+				<string>#CCC</string>
+				<key>lineHighlight</key>
+				<string>#000</string>
+				<key>selection</key>
+				<string>#FC3</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- COMMENT -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment, comment.block.html invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AAA</string>
+				<key>background</key>
+				<string>#E0E0E0</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- KEYWORD -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Keyword, Storage</string>
+			<key>scope</key>
+			<string>keyword, storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F33</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>- Operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#990</string>
+			</dict>
+		 </dict>
+
+		<!-- ================================================== -->
+		<!-- PUNCTUATION -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.separator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99C</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- VARIABLE -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#336</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- CONSTANT -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Constant, Support</string>
+			<key>scope</key>
+			<string>constant, support</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>- Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C60</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>- Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CCF</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- STRING -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>String</string>
+			<key>scope</key>
+			<string>string</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#996</string>
+				<key>background</key>
+				<string>#FFFF0011</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>- Variable, Source</string>
+			<key>scope</key>
+			<string>string variable, string source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#663</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- INVALID -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Invalid</string>
+			<key>scope</key>
+			<string>invalid</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#900</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F00</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>- Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#CC99CC</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#CDCDCD</string>
+			</dict>
+		 </dict>
+
+		<!-- ================================================== -->
+		<!-- ENTITY -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Entity</string>
+			<key>scope</key>
+			<string>entity</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66C</string>
+				<key>background</key>
+				<string>#6666CC11</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>- Tag</string>
+			<key>scope</key>
+			<string>entity.name.tag, source.sass keyword.control.untitled</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66C</string>
+				<key>background</key>
+				<string>#6666CC11</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>- Other</string>
+			<key>scope</key>
+			<string>entity.other</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#EEE</string>
+				<key>foreground</key>
+				<string>#99F</string>
+			</dict>
+		 </dict>
+
+		<!-- ================================================== -->
+		<!-- DIFF -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Diff foreground</string>
+			<key>scope</key>
+			<string>source.diff, markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<!-- <key>foreground</key>
+				<string>#666</string> -->
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>Diff insertion</string>
+			<key>scope</key>
+			<string>markup.inserted.diff, meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#090</string>
+				<key>background</key>
+				<string>#00FF0033</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>Diff deletion</string>
+			<key>scope</key>
+			<string>markup.deleted.diff, meta.diff.header.from-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#900</string>
+				<key>background</key>
+				<string>#FF000033</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>Diff header</string>
+			<key>scope</key>
+			<string>meta.diff.header.from-file, meta.diff.header.to-file</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#66C</string>
+				<!-- <key>background</key>
+				<string>#9999FF66</string> -->
+				<key>background</key>
+				<string>#6666CC11</string>
+			</dict>
+		 </dict>
+		<dict>
+			<key>name</key>
+			<string>Diff range</string>
+			<key>scope</key>
+			<string>meta.diff.range</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#9999FF99</string>
+			</dict>
+		</dict>
+
+		<!-- ================================================== -->
+		<!-- MARKDOWN -->
+		<!-- ================================================== -->
+
+		<dict>
+			<key>name</key>
+			<string>Markdown</string>
+			<key>scope</key>
+			<string>text.html.markdown</string>
+			<key>settings</key>
+			<dict>
+				<!-- <key>foreground</key>
+				<string>#66c</string> -->
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#996</string>
+				<key>background</key>
+				<string>#FFFF0011</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>- Entity</string>
+			<key>scope</key>
+			<string>markup.heading entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#663</string>
+				<key>background</key>
+				<string>#FFFF0033</string>
+			</dict>
+		</dict>
+		<!-- <dict>
+			<key>name</key>
+			<string>- Heading 1</string>
+			<key>scope</key>
+			<string>markup.heading.1</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#073f75</string>
+				<key>background</key>
+				<string>#073f75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>- Heading 2</string>
+			<key>scope</key>
+			<string>markup.heading.2</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#346b96</string>
+				<key>background</key>
+				<string>#346b96</string>
+			</dict>
+		</dict> -->
+		<dict>
+			<key>name</key>
+			<string>Markdown List</string>
+			<key>scope</key>
+			<string>markup.list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6c96b6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+	</array>
+
+	<key>uuid</key>
+	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.light.nemo_dreaming</string>
+
+</dict>
+</plist>

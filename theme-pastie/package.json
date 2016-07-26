@@ -1,0 +1,22 @@
+{
+    "name": "theme-pastie",
+    "displayName": "Pastie",
+    "description": "Pastie theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pastie",
+                "uiTheme": "vs",
+                "path": "./themes/Pastie.tmTheme"
+            }
+        ]
+    }
+}

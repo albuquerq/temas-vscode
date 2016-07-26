@@ -1,0 +1,22 @@
+{
+    "name": "theme-amy",
+    "displayName": "Amy",
+    "description": "Amy theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Amy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Amy.tmTheme"
+            }
+        ]
+    }
+}

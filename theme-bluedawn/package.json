@@ -1,0 +1,22 @@
+{
+    "name": "theme-bluedawn",
+    "displayName": "Blue Dawn",
+    "description": "Blue Dawn theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blue Dawn",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blue-Dawn.tmTheme"
+            }
+        ]
+    }
+}

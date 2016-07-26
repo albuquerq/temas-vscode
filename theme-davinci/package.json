@@ -1,0 +1,22 @@
+{
+    "name": "theme-davinci",
+    "displayName": "Davinci",
+    "description": "Davinci theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Davinci",
+                "uiTheme": "vs",
+                "path": "./themes/Davinci.tmTheme"
+            }
+        ]
+    }
+}

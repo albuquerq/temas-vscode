@@ -1,0 +1,22 @@
+{
+    "name": "theme-twostones",
+    "displayName": "Two Stones",
+    "description": "Two Stones theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Two Stones",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Two-Stones.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-angulariocode",
+    "displayName": "Angular Io Code",
+    "description": "Angular Io Code theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Angular Io Code",
+                "uiTheme": "vs",
+                "path": "./themes/Angular-Io-Code.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokaifannoned",
+    "displayName": "Monokai Fannon Ed",
+    "description": "Monokai Fannon Ed theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Fannon Ed",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-Fannon-Ed.tmTheme"
+            }
+        ]
+    }
+}

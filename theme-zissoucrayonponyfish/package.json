@@ -1,0 +1,22 @@
+{
+    "name": "theme-zissoucrayonponyfish",
+    "displayName": "Zissou Crayon Pony Fish",
+    "description": "Zissou Crayon Pony Fish theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zissou Crayon Pony Fish",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Zissou-Crayon-Pony-Fish.tmTheme"
+            }
+        ]
+    }
+}

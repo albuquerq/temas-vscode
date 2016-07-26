@@ -1,0 +1,22 @@
+{
+    "name": "theme-githubcleanwhite",
+    "displayName": "Github Clean White",
+    "description": "Github Clean White theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Github Clean White",
+                "uiTheme": "vs",
+                "path": "./themes/Github-Clean-White.tmTheme"
+            }
+        ]
+    }
+}

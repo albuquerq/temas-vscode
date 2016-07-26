@@ -1,0 +1,22 @@
+{
+    "name": "theme-darkneon",
+    "displayName": "Dark Neon",
+    "description": "Dark Neon theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Neon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DarkNeon.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-candybrights",
+    "displayName": "Candy Brights",
+    "description": "Candy Brights theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Candy Brights",
+                "uiTheme": "vs",
+                "path": "./themes/Candy-Brights.tmTheme"
+            }
+        ]
+    }
+}

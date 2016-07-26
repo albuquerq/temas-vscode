@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialspaceblack",
+    "displayName": "Material Spaceblack",
+    "description": "Material Spaceblack theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Spaceblack",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Spaceblack.tmTheme"
+            }
+        ]
+    }
+}

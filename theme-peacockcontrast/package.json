@@ -1,0 +1,22 @@
+{
+    "name": "theme-peacockcontrast",
+    "displayName": "Peacock Contrast",
+    "description": "Peacock Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Peacock Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Peacock-Contrast.tmTheme"
+            }
+        ]
+    }
+}

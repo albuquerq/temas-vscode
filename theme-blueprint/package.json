@@ -1,0 +1,22 @@
+{
+    "name": "theme-blueprint",
+    "displayName": "Blueprint",
+    "description": "Blueprint theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Blueprint",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Blueprint.tmTheme"
+            }
+        ]
+    }
+}

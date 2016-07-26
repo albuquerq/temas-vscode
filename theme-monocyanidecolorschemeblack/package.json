@@ -1,0 +1,22 @@
+{
+    "name": "theme-monocyanidecolorschemeblack",
+    "displayName": "Monocyanide Colorscheme Black",
+    "description": "Monocyanide Colorscheme Black theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monocyanide Colorscheme Black",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monocyanide-Colorscheme-Black.tmTheme"
+            }
+        ]
+    }
+}

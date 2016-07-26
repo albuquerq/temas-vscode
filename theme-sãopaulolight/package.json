@@ -1,0 +1,22 @@
+{
+    "name": "theme-sãopaulolight",
+    "displayName": "São Paulo Light",
+    "description": "São Paulo Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "São Paulo Light",
+                "uiTheme": "vs",
+                "path": "./themes/São-Paulo-Light.tmTheme"
+            }
+        ]
+    }
+}

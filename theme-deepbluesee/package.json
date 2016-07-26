@@ -1,0 +1,22 @@
+{
+    "name": "theme-deepbluesee",
+    "displayName": "Deep Blue See",
+    "description": "Deep Blue See theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Deep Blue See",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Deep-Blue-See.tmTheme"
+            }
+        ]
+    }
+}

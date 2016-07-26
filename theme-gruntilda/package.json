@@ -1,0 +1,22 @@
+{
+    "name": "theme-gruntilda",
+    "displayName": "Gruntilda",
+    "description": "Gruntilda theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gruntilda",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gruntilda.tmTheme"
+            }
+        ]
+    }
+}

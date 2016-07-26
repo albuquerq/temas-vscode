@@ -1,0 +1,22 @@
+{
+    "name": "theme-coffeeflavor",
+    "displayName": "Coffee Flavor",
+    "description": "Coffee Flavor theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Coffee Flavor",
+                "uiTheme": "vs",
+                "path": "./themes/Coffee-Flavor.tmTheme"
+            }
+        ]
+    }
+}

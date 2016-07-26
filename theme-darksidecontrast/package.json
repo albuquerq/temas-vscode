@@ -1,0 +1,22 @@
+{
+    "name": "theme-darksidecontrast",
+    "displayName": "Darkside Contrast",
+    "description": "Darkside Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darkside Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darkside-Contrast.tmTheme"
+            }
+        ]
+    }
+}

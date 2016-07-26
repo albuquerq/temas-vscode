@@ -1,0 +1,22 @@
+{
+    "name": "theme-monokaisoftmd",
+    "displayName": "Monokai Soft MD",
+    "description": "Monokai Soft MD theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Monokai Soft MD",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Monokai-Soft-MD.tmTheme"
+            }
+        ]
+    }
+}

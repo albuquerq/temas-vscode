@@ -1,0 +1,22 @@
+{
+    "name": "theme-betterjs",
+    "displayName": "Better JS",
+    "description": "Better JS theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Better JS",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Better-JS.tmTheme"
+            }
+        ]
+    }
+}

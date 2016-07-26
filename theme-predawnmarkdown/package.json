@@ -1,0 +1,22 @@
+{
+    "name": "theme-predawnmarkdown",
+    "displayName": "Predawn Markdown",
+    "description": "Predawn Markdown theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Predawn Markdown",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Predawn-Markdown.tmTheme"
+            }
+        ]
+    }
+}

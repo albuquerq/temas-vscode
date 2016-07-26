@@ -1,0 +1,22 @@
+{
+    "name": "theme-abdalblackhackers2",
+    "displayName": "Abdal Black Hackers 2",
+    "description": "Abdal Black Hackers 2 theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Abdal Black Hackers 2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Abdal-Black-Hackers-2.tmTheme"
+            }
+        ]
+    }
+}

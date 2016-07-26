@@ -1,0 +1,22 @@
+{
+    "name": "theme-anatomyofgrey",
+    "displayName": "Anatomy Of Grey",
+    "description": "Anatomy Of Grey theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Anatomy Of Grey",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Anatomy-Of-Grey.tmTheme"
+            }
+        ]
+    }
+}

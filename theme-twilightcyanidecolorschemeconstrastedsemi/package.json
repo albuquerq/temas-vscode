@@ -1,0 +1,22 @@
+{
+    "name": "theme-twilightcyanidecolorschemeconstrastedsemi",
+    "displayName": "Twilightcyanide Colorscheme Constrasted Semi",
+    "description": "Twilightcyanide Colorscheme Constrasted Semi theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Twilightcyanide Colorscheme Constrasted Semi",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Twilightcyanide-Colorscheme-Constrasted-Semi.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-commodore64",
+    "displayName": "Commodore 64",
+    "description": "Commodore 64 theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Commodore 64",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Commodore-64.tmTheme"
+            }
+        ]
+    }
+}

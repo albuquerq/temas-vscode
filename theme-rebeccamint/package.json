@@ -1,0 +1,22 @@
+{
+    "name": "theme-rebeccamint",
+    "displayName": "Rebecca Mint",
+    "description": "Rebecca Mint theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rebecca Mint",
+                "uiTheme": "vs",
+                "path": "./themes/Rebecca-Mint.tmTheme"
+            }
+        ]
+    }
+}

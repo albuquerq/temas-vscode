@@ -1,0 +1,22 @@
+{
+    "name": "theme-boneakite",
+    "displayName": "Bone A Kite",
+    "description": "Bone A Kite theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bone A Kite",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bone-A-Kite.tmTheme"
+            }
+        ]
+    }
+}

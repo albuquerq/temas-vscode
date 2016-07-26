@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialcobalt",
+    "displayName": "Material Cobalt",
+    "description": "Material Cobalt theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Cobalt",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Cobalt.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-primerlight2",
+    "displayName": "Primer Light2",
+    "description": "Primer Light2 theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Primer Light2",
+                "uiTheme": "vs",
+                "path": "./themes/Primer-Light2.tmTheme"
+            }
+        ]
+    }
+}

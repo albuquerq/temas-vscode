@@ -1,0 +1,22 @@
+{
+    "name": "theme-redplanetdark",
+    "displayName": "Red Planet Dark",
+    "description": "Red Planet Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Red Planet Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Red-Planet-Dark.tmTheme"
+            }
+        ]
+    }
+}

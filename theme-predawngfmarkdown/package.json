@@ -1,0 +1,22 @@
+{
+    "name": "theme-predawngfmarkdown",
+    "displayName": "Predawn Gf Markdown",
+    "description": "Predawn Gf Markdown theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Predawn Gf Markdown",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Predawn-Gf-Markdown.tmTheme"
+            }
+        ]
+    }
+}

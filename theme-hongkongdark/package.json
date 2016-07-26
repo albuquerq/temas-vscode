@@ -1,0 +1,22 @@
+{
+    "name": "theme-hongkongdark",
+    "displayName": "Hong Kong Dark",
+    "description": "Hong Kong Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hong Kong Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Hong-Kong-Dark.tmTheme"
+            }
+        ]
+    }
+}

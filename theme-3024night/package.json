@@ -1,0 +1,22 @@
+{
+    "name": "theme-3024night",
+    "displayName": "3024 Night",
+    "description": "3024 Night theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "3024 Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/3024-Night.tmTheme"
+            }
+        ]
+    }
+}

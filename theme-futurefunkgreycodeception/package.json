@@ -1,0 +1,22 @@
+{
+    "name": "theme-futurefunkgreycodeception",
+    "displayName": "Future Funk Grey Codeception",
+    "description": "Future Funk Grey Codeception theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Future Funk Grey Codeception",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Future-Funk-Grey-Codeception.tmTheme"
+            }
+        ]
+    }
+}

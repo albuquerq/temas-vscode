@@ -1,0 +1,22 @@
+{
+    "name": "theme-donatello",
+    "displayName": "Donatello",
+    "description": "Donatello theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Donatello",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Donatello.tmTheme"
+            }
+        ]
+    }
+}

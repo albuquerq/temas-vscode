@@ -1,0 +1,22 @@
+{
+    "name": "theme-zeussublimetextlighter",
+    "displayName": "Zeus Sublime Text Lighter",
+    "description": "Zeus Sublime Text Lighter theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Zeus Sublime Text Lighter",
+                "uiTheme": "vs",
+                "path": "./themes/Zeus-Sublime-Text-Lighter.tmTheme"
+            }
+        ]
+    }
+}

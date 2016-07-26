@@ -1,0 +1,22 @@
+{
+    "name": "theme-markdowneditorfocus",
+    "displayName": "Markdowneditor Focus",
+    "description": "Markdowneditor Focus theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Markdowneditor Focus",
+                "uiTheme": "vs",
+                "path": "./themes/Markdowneditor-Focus.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-yule",
+    "displayName": "Yule",
+    "description": "Yule theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Yule",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Yule.tmTheme"
+            }
+        ]
+    }
+}

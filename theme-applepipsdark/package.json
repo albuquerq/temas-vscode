@@ -1,0 +1,22 @@
+{
+    "name": "theme-applepipsdark",
+    "displayName": "Apple Pips Dark",
+    "description": "Apple Pips Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Apple Pips Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Apple-Pips-Dark.tmTheme"
+            }
+        ]
+    }
+}

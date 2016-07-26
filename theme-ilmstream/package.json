@@ -1,0 +1,22 @@
+{
+    "name": "theme-ilmstream",
+    "displayName": "ILM Stream",
+    "description": "ILM Stream theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "ILM Stream",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ILM-Stream.tmTheme"
+            }
+        ]
+    }
+}

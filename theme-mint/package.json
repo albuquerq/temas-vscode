@@ -1,0 +1,22 @@
+{
+    "name": "theme-mint",
+    "displayName": "Mint",
+    "description": "Mint theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mint",
+                "uiTheme": "vs",
+                "path": "./themes/Mint.tmTheme"
+            }
+        ]
+    }
+}

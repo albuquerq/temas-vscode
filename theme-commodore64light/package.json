@@ -1,0 +1,22 @@
+{
+    "name": "theme-commodore64light",
+    "displayName": "Commodore64 Light",
+    "description": "Commodore64 Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Commodore64 Light",
+                "uiTheme": "vs",
+                "path": "./themes/Commodore-64-Light.tmTheme"
+            }
+        ]
+    }
+}

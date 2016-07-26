@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialseti",
+    "displayName": "Material Seti",
+    "description": "Material Seti theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Seti",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Seti.tmTheme"
+            }
+        ]
+    }
+}

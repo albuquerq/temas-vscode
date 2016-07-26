@@ -1,0 +1,22 @@
+{
+    "name": "theme-hyrulecontrast",
+    "displayName": "Hyrule Contrast",
+    "description": "Hyrule Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hyrule Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Hyrule-Contrast.tmTheme"
+            }
+        ]
+    }
+}

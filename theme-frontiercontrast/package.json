@@ -1,0 +1,22 @@
+{
+    "name": "theme-frontiercontrast",
+    "displayName": "Frontier Contrast",
+    "description": "Frontier Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Frontier Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Frontier-Contrast.tmTheme"
+            }
+        ]
+    }
+}

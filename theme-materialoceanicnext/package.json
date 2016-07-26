@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialoceanicnext",
+    "displayName": "Material Oceanic Next",
+    "description": "Material Oceanic Next theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Oceanic Next",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Oceanic-Next.tmTheme"
+            }
+        ]
+    }
+}

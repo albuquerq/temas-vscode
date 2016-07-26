@@ -1,0 +1,22 @@
+{
+    "name": "theme-pastelpawsnightberry",
+    "displayName": "Pastel Paws Nightberry",
+    "description": "Pastel Paws Nightberry theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Pastel Paws Nightberry",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Pastel-Paws-Nightberry.tmTheme"
+            }
+        ]
+    }
+}

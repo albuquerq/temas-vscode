@@ -1,0 +1,22 @@
+{
+    "name": "theme-tokyodark",
+    "displayName": "Tokyo Dark",
+    "description": "Tokyo Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tokyo Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tokyo-Dark.tmTheme"
+            }
+        ]
+    }
+}

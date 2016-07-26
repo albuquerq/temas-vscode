@@ -1,0 +1,22 @@
+{
+    "name": "theme-paraísodark",
+    "displayName": "Paraíso Dark",
+    "description": "Paraíso Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Paraíso Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Paraíso-Dark.tmTheme"
+            }
+        ]
+    }
+}

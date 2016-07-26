@@ -1,0 +1,22 @@
+{
+    "name": "theme-ryanlight",
+    "displayName": "Ryan Light",
+    "description": "Ryan Light theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ryan Light",
+                "uiTheme": "vs",
+                "path": "./themes/Ryan-Light.tmTheme"
+            }
+        ]
+    }
+}

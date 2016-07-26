@@ -1,0 +1,22 @@
+{
+    "name": "theme-crayonponyfish",
+    "displayName": "Crayon Pony Fish",
+    "description": "Crayon Pony Fish theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Crayon Pony Fish",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Crayon-Pony-Fish.tmTheme"
+            }
+        ]
+    }
+}

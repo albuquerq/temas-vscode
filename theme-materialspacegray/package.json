@@ -1,0 +1,22 @@
+{
+    "name": "theme-materialspacegray",
+    "displayName": "Material Spacegray",
+    "description": "Material Spacegray theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Material Spacegray",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Material-Spacegray.tmTheme"
+            }
+        ]
+    }
+}

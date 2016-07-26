@@ -1,0 +1,22 @@
+{
+    "name": "theme-tyrannkim",
+    "displayName": "Tyrann Kim",
+    "description": "Tyrann Kim theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tyrann Kim",
+                "uiTheme": "vs",
+                "path": "./themes/Tyrann-Kim.tmTheme"
+            }
+        ]
+    }
+}

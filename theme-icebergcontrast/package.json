@@ -1,0 +1,22 @@
+{
+    "name": "theme-icebergcontrast",
+    "displayName": "Iceberg Contrast",
+    "description": "Iceberg Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Iceberg Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Iceberg-Contrast.tmTheme"
+            }
+        ]
+    }
+}

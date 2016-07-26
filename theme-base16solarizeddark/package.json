@@ -1,0 +1,22 @@
+{
+    "name": "theme-base16solarizeddark",
+    "displayName": "Base16 Solarized Dark",
+    "description": "Base16 Solarized Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Base16 Solarized Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Base16-Solarized-Dark.tmTheme"
+            }
+        ]
+    }
+}

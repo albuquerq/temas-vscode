@@ -1,0 +1,22 @@
+{
+    "name": "theme-emokidalt",
+    "displayName": "Emokid Alt",
+    "description": "Emokid Alt theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Emokid Alt",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Emokid-Alt.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-mandarinpeacock",
+    "displayName": "Mandarin Peacock",
+    "description": "Mandarin Peacock theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mandarin Peacock",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mandarin-Peacock.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-laravelcontrast",
+    "displayName": "Laravel Contrast",
+    "description": "Laravel Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Laravel Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Laravel-Contrast.tmTheme"
+            }
+        ]
+    }
+}

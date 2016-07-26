@@ -1,0 +1,22 @@
+{
+    "name": "theme-atouchofcrayon",
+    "displayName": "A Touch Of Crayon",
+    "description": "A Touch Of Crayon theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "A Touch Of Crayon",
+                "uiTheme": "vs-dark",
+                "path": "./themes/A-Touch-Of-Crayon.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-keencontrast",
+    "displayName": "Keen Contrast",
+    "description": "Keen Contrast theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Keen Contrast",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Keen-Contrast.tmTheme"
+            }
+        ]
+    }
+}

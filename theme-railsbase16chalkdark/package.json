@@ -1,0 +1,22 @@
+{
+    "name": "theme-railsbase16chalkdark",
+    "displayName": "Railsbase16 Chalk Dark",
+    "description": "Railsbase16 Chalk Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Railsbase16 Chalk Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Railsbase16-Chalk-Dark.tmTheme"
+            }
+        ]
+    }
+}

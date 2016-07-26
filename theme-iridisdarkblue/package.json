@@ -1,0 +1,22 @@
+{
+    "name": "theme-iridisdarkblue",
+    "displayName": "Iridis Dark Blue",
+    "description": "Iridis Dark Blue theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Iridis Dark Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Iridis-Dark-Blue.tmTheme"
+            }
+        ]
+    }
+}

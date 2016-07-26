@@ -1,0 +1,22 @@
+{
+    "name": "theme-ironman2suitcase",
+    "displayName": "Ironman2suitcase",
+    "description": "Ironman2suitcase theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ironman2suitcase",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ironman2suitcase.tmTheme"
+            }
+        ]
+    }
+}

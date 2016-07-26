@@ -1,0 +1,22 @@
+{
+    "name": "theme-graymatterdark",
+    "displayName": "Gray Matter Dark",
+    "description": "Gray Matter Dark theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Gray Matter Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Gray-Matter-Dark.tmTheme"
+            }
+        ]
+    }
+}

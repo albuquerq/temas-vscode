@@ -1,0 +1,22 @@
+{
+    "name": "theme-enlightened",
+    "displayName": "Enlightened",
+    "description": "Enlightened theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Enlightened",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Enlightened.tmTheme"
+            }
+        ]
+    }
+}

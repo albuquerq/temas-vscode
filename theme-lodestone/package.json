@@ -1,0 +1,22 @@
+{
+    "name": "theme-lodestone",
+    "displayName": "Lodestone",
+    "description": "Lodestone theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lodestone",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lodestone.tmTheme"
+            }
+        ]
+    }
+}

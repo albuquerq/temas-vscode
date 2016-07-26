@@ -1,0 +1,22 @@
+{
+    "name": "theme-rubyblue",
+    "displayName": "Ruby Blue",
+    "description": "Ruby Blue theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ruby Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ruby-Blue.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-preapmarkdown",
+    "displayName": "Preap Markdown",
+    "description": "Preap Markdown theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Preap Markdown",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Preap-Markdown.tmTheme"
+            }
+        ]
+    }
+}

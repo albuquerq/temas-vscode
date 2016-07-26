@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Autumn</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#1f1f1f</string>
+				<key>caret</key>
+				<string>#e08300</string>
+				<key>foreground</key>
+				<string>#ffc499</string>
+				<key>gutterForeground</key>
+				<string>#fddcc4</string>
+				<key>invisibles</key>
+				<string>#7b6f65</string>
+				<key>lineHighlight</key>
+				<string>#252525</string>
+				<key>selection</key>
+				<string>#3f3523</string>
+				<key>gutter</key>
+				<string>#1f1f1f</string>
+				<key>findHighlight</key>
+				<string>#f58f00</string>
+				<key>findHighlightForeground</key>
+				<string>#1f1f1f</string>
+				<key>minimapBorder</key>
+				<string>#3f3523</string>
+			</dict>
+		</dict>
+		<!-- BracketHighlighter plugin -->
+		<dict>
+		  <key>name</key>
+		  <string>Brackets default</string>
+		  <key>scope</key>
+		  <string>brackethighlighter.default, brackethighlighter.unmatched</string>
+		  <key>settings</key>
+		  <dict>
+		      <key>foreground</key>
+		      <string>#f58f00</string>
+		  </dict>
+		</dict>
+		 <!-- GitGutter Plugin -->
+		<dict>
+		  <key>name</key>
+		  <string>GitGutter deleted</string>
+		  <key>scope</key>
+		  <string>markup.deleted.git_gutter</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#ffac70</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>GitGutter inserted</string>
+		  <key>scope</key>
+		  <string>markup.inserted.git_gutter</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#ff9b0f</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>GitGutter changed</string>
+		  <key>scope</key>
+		  <string>markup.changed.git_gutter</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#dedb2a</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>GitGutter ignored</string>
+		  <key>scope</key>
+		  <string>markup.ignored.git_gutter</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#7b6f65</string>
+		  </dict>
+		</dict>
+		<dict>
+		  <key>name</key>
+		  <string>GitGutter untracked</string>
+		  <key>scope</key>
+		  <string>markup.untracked.git_gutter</string>
+		  <key>settings</key>
+		  <dict>
+		    <key>foreground</key>
+		    <string>#c4db32</string>
+		  </dict>
+		</dict>
+		<!-- COMMENTS -->
+		<dict>
+			<key>name</key>
+			<string>Comment</string>
+			<key>scope</key>
+			<string>comment.block, comment.line</string>
+			<key>settings</key>
+			<dict>
+				<!-- <key>background</key>
+				<string>#242424</string> -->
+				<key>foreground</key>
+				<string>#7b6f65</string>
+			</dict>
+		</dict>
+		<!-- META -->
+		<dict>
+			<key>name</key>
+			<string>Storage type class</string>
+			<key>scope</key>
+			<string>meta.class storage.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffad0a</string>
+			</dict>
+		</dict>
+		<!-- STRINGS -->
+		<dict>
+			<key>name</key>
+			<string>Strings</string>
+			<key>scope</key>
+			<string>string, constant.character</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb885</string>
+			</dict>
+		</dict>
+		<!-- Punctuation -->
+		<dict>
+			<key>name</key>
+			<string>Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin, punctuation.definition.string.end, punctuation.terminator, punctuation.separator, punctuation.delimiter.comma</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa05c</string>
+			</dict>
+		</dict>
+		<!-- CONSTANTS -->
+		<dict>
+			<key>name</key>
+			<string>constants</string>
+			<key>scope</key>
+			<string>constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>language constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<!-- ENTITY -->
+		<dict>
+			<key>name</key>
+			<string>entity type class</string>
+			<key>scope</key>
+			<string>entity.name.type.class, entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity name function</string>
+			<key>scope</key>
+			<string>entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>entity name section</string>
+			<key>scope</key>
+			<string>entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<!-- invalid/deprecated -->
+		<dict>
+			<key>name</key>
+			<string>invalid</string>
+			<key>scope</key>
+			<string>invalid.illegal, invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#242424</string>
+				<key>background</key>
+				<string>#ec8c46</string>
+			</dict>
+		</dict>
+		<!-- KEYWORDS -->
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffad0a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>operator</string>
+			<key>scope</key>
+			<string>keyword.operator</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa05c</string>
+			</dict>
+		</dict>
+		<!-- STORAGE -->
+		<dict>
+			<key>name</key>
+			<string>storage type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage modifier</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage type function</string>
+			<key>scope</key>
+			<string>storage.type.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<!-- SUPPORT -->
+		<dict>
+			<key>name</key>
+			<string>Support function</string>
+			<key>scope</key>
+			<string>support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support class</string>
+			<key>scope</key>
+			<string>support.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Support constant</string>
+			<key>scope</key>
+			<string>support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<!-- VARIABLE -->
+		<dict>
+			<key>name</key>
+			<string>Variable</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable language</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable parameter</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Source</string>
+			<key>scope</key>
+			<string>source</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<!-- DOCTYPE -->
+		<dict>
+			<key>name</key>
+			<string>Doctype text</string>
+			<key>scope</key>
+			<string>text.html.basic meta.tag.sgml.html meta.tag.sgml.doctype.html, text.html.basic meta.tag.sgml.html punctuation.definition.tag.html, meta.tag.sgml.doctype.xml punctuation.definition.tag.begin.xml, text.xml meta.tag.preprocessor.xml entity.name.tag.xml, meta.tag.preprocessor.xml punctuation.definition.tag.begin.xml, punctuation.section.embedded.begin.php, text.html.basic meta.tag.sgml.html meta.tag.sgml.doctype.html entity.name.tag.doctype.html </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffad0a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>DTDs</string>
+			<key>scope</key>
+			<string>text.html.basic meta.tag.sgml.html meta.tag.sgml.doctype.html string.quoted.double.doctype.identifiers-and-DTDs.html, meta.tag.sgml.doctype.xml variable.documentroot.xml, meta.tag.sgml.doctype.xml </string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb41f</string>
+			</dict>
+		</dict>
+		<!-- TAGS -->
+		<dict>
+			<key>name</key>
+			<string>Tag name</string>
+			<key>scope</key>
+			<string>entity.name.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag start, end</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<!-- CSS-->
+		<dict>
+			<key>name</key>
+			<string>meta selector</string>
+			<key>scope</key>
+			<string> meta.selector.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>property name</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.property-name.css support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>property name</string>
+			<key>scope</key>
+			<string>source.css meta.property-list.css meta.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>id, class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id, meta.tag.attribute.id, entity.other.attribute-name.class, meta.tag.attribute.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c4db32</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Units, punctuation </string>
+			<key>scope</key>
+			<string>keyword.other.unit, constant.other.color.rgb-value punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb885</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>font names</string>
+			<key>scope</key>
+			<string>punctuation.definition.constant, meta.property-list.css meta.property-value.css, support.function.misc.css, support.constant.property-value.css, support.constant.font-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb885</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>pseudo class</string>
+			<key>scope</key>
+			<string>string.quoted.double.attribute-value, entity.other.attribute-name.pseudo-element, entity.other.attribute-name.pseudo-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation strings</string>
+			<key>scope</key>
+			<string>string.quoted.double.attribute-value.css punctuation.definition.string.begin.css, string.quoted.double.attribute-value.css punctuation.definition.string.end.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>at rule @media</string>
+			<key>scope</key>
+			<string>keyword.control.at-rule.media.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffad0a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword logic media</string>
+			<key>scope</key>
+			<string>keyword.operator.logic.media.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb41f</string>
+			</dict>
+		</dict>
+		<!-- STYLUS -->
+		<dict>
+			<key>name</key>
+			<string>property name</string>
+			<key>scope</key>
+			<string>meta.property-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+			<dict>
+			<key>name</key>
+			<string>keywords</string>
+			<key>scope</key>
+			<string>keyword.language.function.misc.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb885</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>function name</string>
+			<key>scope</key>
+			<string>entity.function-name.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>mixins</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.mixin.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>font names</string>
+			<key>scope</key>
+			<string>support.constant.font-name.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>other variables, constants</string>
+			<key>scope</key>
+			<string>variable.other.stylus, constant.property-value.stylus, constant.color.w3c-standard-color-name.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffb885</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation</string>
+			<key>scope</key>
+			<string>punctuation.definition.parameters.start.stylus, punctuation.definition.parameters.end.stylus</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa21f</string>
+			</dict>
+		</dict>
+		<!-- JAVASCRIPT -->
+		<dict>
+			<key>name</key>
+			<string>delimiter period</string>
+			<key>scope</key>
+			<string>source.js meta.delimiter.method.period.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword new</string>
+			<key>scope</key>
+			<string>keyword.operator.new.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword new</string>
+			<key>scope</key>
+			<string>source.js meta.function.js variable.parameter.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa05c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>variable function</string>
+			<key>scope</key>
+			<string>source.js meta.function-call.method.with-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.function-call.with-arguments.js variable.function.js, source.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.method.without-arguments.js variable.function.js, source.js meta.function-call.with-arguments.js variable.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9b0f</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>this</string>
+			<key>scope</key>
+			<string>source.js meta.group.braces.curly variable.language.this.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffad0a</string>
+			</dict>
+		</dict>
+		<!-- JAVA -->
+		<dict>
+			<key>name</key>
+			<string>storage, keyword new</string>
+			<key>scope</key>
+			<string>storage.modifier.package.java, storage.modifier.import.java, keyword.control.new.java, meta.method.java meta.method.return-type.java storage.type.generic.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>others storage type</string>
+			<key>scope</key>
+			<string>meta.method.return-type.java storage.type.java, meta.method.return-type.java storage.type.primitive.array.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>storage modifiers</string>
+			<key>scope</key>
+			<string>meta.class.java storage.modifier.java, meta.class.java meta.class.body.java storage.modifier.java, meta.class.java meta.class.body.java meta.method.java storage.modifier.java,  meta.method.body.java meta.inner-class.java meta.method.java storage.modifier.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>other srorage modifiers</string>
+			<key>scope</key>
+			<string> storage.type.annotation.java, meta.method.java meta.throwables.java storage.modifier.java, meta.method.java meta.method.body.java storage.modifier.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffad0a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>other srorage modifiers</string>
+			<key>scope</key>
+			<string> meta.class.java meta.class.body.java meta.method.java meta.method.body.java meta.class.java meta.class.identifier.java storage.modifier.java, meta.class.java meta.class.body.java meta.class.java meta.class.identifier.java storage.modifier.java, source.java meta.class.java meta.class.identifier.java entity.name.type.class.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>annotations</string>
+			<key>scope</key>
+			<string>storage.type.annotation.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>keyword annotation</string>
+			<key>scope</key>
+			<string>keyword.other.documentation.author.javadoc, keyword.other.documentation.param.javadoc</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#87796e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>class name</string>
+			<key>scope</key>
+			<string>source.java meta.class.java meta.class.identifier.java entity.name.type.class.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa05c</string>
+			</dict>
+		</dict>
+		<!-- JSON -->
+		<dict>
+			<key>name</key>
+			<string>strings</string>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<!-- MARKDOWN -->
+		<dict>
+			<key>name</key>
+			<string>Markup: Heading (#)</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>normal</string>
+			<key>scope</key>
+			<string>markup.normal.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffc499</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>bold</string>
+			<key>scope</key>
+			<string>markup.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa05c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation bold</string>
+			<key>scope</key>
+			<string>punctuation.definition.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>punctuation heading</string>
+			<key>scope</key>
+			<string>punctuation.definition.heading.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9910</string>
+			</dict>
+		</dict>
+			<dict>
+			<key>name</key>
+			<string>heading section</string>
+			<key>scope</key>
+			<string>meta.block-level.markdown markup.heading.markdown entity.name.section.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<!-- xml -->
+		<dict>
+			<key>name</key>
+			<string>some punctuation</string>
+			<key>scope</key>
+			<string>meta.tag.xml entity.name.tag, punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<!-- SQL -->
+		<dict>
+			<key>name</key>
+			<string>keywords</string>
+			<key>scope</key>
+			<string>keyword.other.DML.sql, keyword.other.DML.II.sql, keyword.other.alias.sql, keyword.other.order.sql</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffa05c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>constant: table name</string>
+			<key>scope</key>
+			<string>constant.other.table-name.sql</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<!-- PL/SQL ORACLE -->
+		<dict>
+			<key>name</key>
+			<string>keywords</string>
+			<key>scope</key>
+			<string>keyword.other.oracle, keyword.other.sql.oracle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ffac70</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>another keywords</string>
+			<key>scope</key>
+			<string>meta.package.oracle keyword.other.oracle, meta.procedure.oracle keyword.other.oracle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dedb2a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>another keywords</string>
+			<key>scope</key>
+			<string>meta.package.oracle keyword.other.oracle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c4db32</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+{
+    "name": "theme-tonic",
+    "displayName": "Tonic",
+    "description": "Tonic theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Tonic",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Tonic.tmTheme"
+            }
+        ]
+    }
+}

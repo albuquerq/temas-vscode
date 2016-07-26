@@ -1,0 +1,22 @@
+{
+    "name": "theme-mustang",
+    "displayName": "Mustang",
+    "description": "Mustang theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Mustang",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Mustang.tmTheme"
+            }
+        ]
+    }
+}

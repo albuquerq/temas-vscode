@@ -1,0 +1,22 @@
+{
+    "name": "theme-darksidelightselection",
+    "displayName": "Darkside Light Selection",
+    "description": "Darkside Light Selection theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darkside Light Selection",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darkside-Light-Selection.tmTheme"
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "theme-turnofthecentury",
+    "displayName": "Turn Of The Century",
+    "description": "Turn Of The Century theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Turn Of The Century",
+                "uiTheme": "vs",
+                "path": "./themes/Turn-Of-The-Century.tmTheme"
+            }
+        ]
+    }
+}

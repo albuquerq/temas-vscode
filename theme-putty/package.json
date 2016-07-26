@@ -1,0 +1,22 @@
+{
+    "name": "theme-putty",
+    "displayName": "Putty",
+    "description": "Putty theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Putty",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Putty.tmTheme"
+            }
+        ]
+    }
+}

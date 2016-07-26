@@ -1,0 +1,22 @@
+{
+    "name": "theme-rebecca",
+    "displayName": "Rebecca",
+    "description": "Rebecca theme for Visual Studio Code",
+    "version": "0.0.1",
+    "publisher": "Natan Albuquerque",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Rebecca",
+                "uiTheme": "vs",
+                "path": "./themes/Rebecca.tmTheme"
+            }
+        ]
+    }
+}
